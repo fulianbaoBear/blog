@@ -452,13 +452,14 @@
 Nginx部署便就可以通过公网ip来在异地浏览器中访问云服务器中部署的网站
 Git通过此组件把本地部署的博客推送到远端云服务器中
 首先，通过终端登录云服务器分别执行一下两个命令，完成Git与Nginx的安装
-yum update
-yum install git nginx -y
+12yum updateyum install git nginx -y
+
 服务器创建Git仓库服务器与本地的原理一样也需要创建一个Git仓库，用于部署网站，以下有四步分别为：
 该路径是Git仓库的路径:
-mkdir /var/repo/
+1mkdir /var/repo/
+
 仓库权限修改权限:
-chown -R $USER:$USE...
+12chown -R $USE...
             </div>
             <!-- read more -->
             
