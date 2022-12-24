@@ -19,11 +19,15 @@
         <meta name="keywords" content="hexo,hexo-theme,hexo-blog">
     
     <meta name="description" content="">
-    <meta property="og:type" content="website">
+    <meta name="description" content="title: 博客部署于私有云服务器端date: 2022-12-24 21:33:13tags: hexo博客部署于私有云服务器端服务远程登录安装必要组件服务器安装 Git 和 Nginx Nginx部署便就可以通过公网ip来在异地浏览器中访问云服务器中部署的网站 Git通过此组件把本地部署的博客推送到远端云服务器中 首先，通过终端登录云服务器分别执行一下两个命令，完成Git与Nginx的安装">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://43.143.165.129/archives/index.html">
+<meta property="og:url" content="http://43.143.165.129/2022/12/24/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E4%BA%8E%E7%A7%81%E6%9C%89%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="title: 博客部署于私有云服务器端date: 2022-12-24 21:33:13tags: hexo博客部署于私有云服务器端服务远程登录安装必要组件服务器安装 Git 和 Nginx Nginx部署便就可以通过公网ip来在异地浏览器中访问云服务器中部署的网站 Git通过此组件把本地部署的博客推送到远端云服务器中 首先，通过终端登录云服务器分别执行一下两个命令，完成Git与Nginx的安装">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-12-24T13:32:56.365Z">
+<meta property="article:modified_time" content="2022-12-24T13:33:42.334Z">
 <meta property="article:author" content="John Son">
 <meta name="twitter:card" content="summary">
     <meta http-equiv="Cache-control" content="no-cache">
@@ -217,6 +221,8 @@
         }
     </script>
     
+        <body class="post-body">
+    
         <!-- header -->
         <header class="header header-mobile">
     <!-- top read progress line -->
@@ -246,6 +252,17 @@
     </div>
     <!-- toggle banner for post layout -->
     
+        
+            <div class="banner">
+        
+            <div class="blog-title header-element">
+                <a href="/">Hexo</a>
+            </div>
+            <div class="post-title header-element">
+                <a href="#" class="post-name"></a>
+            </div>
+        </div>
+    
 </header>
 
         <!-- fixed footer -->
@@ -272,24 +289,77 @@
 
 
 
+    height:50vh;
+
 ">
     
     <!-- 主页  -->
+    
+        
+    <!-- 404页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/)"></div>
+    <div class="site-intro-img" style="background-image: url(/intro/post-bg.jpg)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
+            
+                [Untitled Post]
+            <!-- 404 -->
             
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
             
+                
+            <!-- 404 -->
+            
         </p>
         <!-- 文章页 meta -->
+        
+            <div class="post-intros">
+                <!-- 文章页标签  -->
+                
+                    <div class= post-intro-tags >
+    
+    
+</div>
+
+                
+                
+                    <div class="post-intro-read">
+                        <span>Word count: <span class="post-count word-count">867</span>Reading time: <span class="post-count reading-time">3 min</span></span>
+                    </div>
+                
+                <div class="post-intro-meta">
+                    <!-- 撰写日期 -->
+                    <span class="iconfont-archer post-intro-calander">&#xe676;</span>
+                    <span class="post-intro-time">2022/12/24</span>
+                    <!-- busuanzi -->
+                    
+                        <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                            <span class="iconfont-archer post-intro-busuanzi">&#xe602;</span>
+                            <span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    
+                    <!-- 文章分享 -->
+                    <span class="share-wrapper">
+                        <span class="iconfont-archer share-icon">&#xe71d;</span>
+                        <span class="share-text">Share</span>
+                        <ul class="share-list">
+                            <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                                <div class="share-qrcode"></div>
+                            </li>
+                            <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                            <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                            <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                            <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
         
     </div>
 </div>
@@ -419,81 +489,137 @@
 
             <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
             <div class="container container-unloaded">
-                <main class="main index-page">
+                <main class="main post-page">
+    <article class="article-entry">
+        <hr>
+<p>title: 博客部署于私有云服务器端<br>date: 2022-12-24 21:33:13<br>tags:</p>
+<h1 id="hexo博客部署于私有云服务器端"><a href="#hexo博客部署于私有云服务器端" class="headerlink" title="hexo博客部署于私有云服务器端"></a>hexo博客部署于私有云服务器端</h1><h2 id="服务远程登录安装必要组件"><a href="#服务远程登录安装必要组件" class="headerlink" title="服务远程登录安装必要组件"></a>服务远程登录安装必要组件</h2><p>服务器安装 Git 和 Nginx</p>
+<p>Nginx部署便就可以通过公网ip来在异地浏览器中访问云服务器中部署的网站</p>
+<p>Git通过此组件把本地部署的博客推送到远端云服务器中</p>
+<p>首先，通过终端登录云服务器分别执行一下两个命令，完成Git与Nginx的安装</p>
+<p><code>yum update</code></p>
+<p><code>yum install git nginx -y</code></p>
+<p>服务器创建Git仓库</p>
+<p>服务器与本地的原理一样也需要创建一个Git仓库，用于部署网站，以下有四步分别为：</p>
+<p>该路径是Git仓库的路径:</p>
+<p><code>mkdir /var/repo/</code></p>
+<p>仓库权限修改权限:</p>
+<p><code>chown -R $USER:$USER /var/repo/</code></p>
+<p><code>chmod -R 755 /var/repo/</code></p>
+<p>创建远程git仓库，这里我自己选择仓库名叫myblog（名称可随意）与本地创建Git仓库同理:</p>
+<p><code>cd /var/repo</code></p>
+<p><code>git init --bare myblog.git</code></p>
+<p>此时就可以看到刚才初始化创建的git仓库:</p>
+<p><code>ls /var/repo</code></p>
+<p>服务器配置Nginx</p>
+<p>创建目录并修改目录所有权和权限:</p>
+<p><code>mkdir -p /var/www/hexo</code></p>
+<p><code>chown -R $USER:$USER /var/www/hexo</code></p>
+<p><code>chmod -R 755 /var/www/hexo</code></p>
+<p>修改 Nginx 的 default 文件，让其 root 指向刚刚创建的 /var/www/hexo目录:(nginx.conf)</p>
+<p><code>vim /etc/nginx/sites-available/default</code></p>
+<p>修改为root /var/www/hexo</p>
+<p>server_name 公网IP</p>
+<p>然后重启 Nginx 服务:</p>
+<p><code>service nginx restart</code></p>
+<p>配置钩子文件（hooks）</p>
+<p>执行以下命令，新建钩子文件，其中 myblog.git 文件是上文创建的git仓库:</p>
+<p><code>vim /var/repo/myblog.git/hooks/post-receive</code></p>
+<p>post-receive该文件是通过vim创建的一个空白文件，只需要添加以下内容，退出保存即可。</p>
+<pre><code class="#!/bin/bash">
+git --work-tree=/var/www/hexo --git-dir=/var/repo/myblog.git checkout -f```
+
+同样该文件也需要添加可执行权限，输入以下指令即可:
+
+```chmod +x /var/repo/myblog.git/hooks/post-receive```
+
+部署本地 Hexo 到远程服务器
+
+将服务器地址添加到受信任的站点，在本地PC的任意目录从服务器上把仓库克隆下来
+
+```git clone root@&#123;云服务器IP&#125;:/var/repo/myblog.git```
+
+这里需要注意一下哈，&#123;云服务器IP&#125;这里只需要输入自己的云服务器的外网登录IP地址。通过git把远程仓库部署到PC机（windows10）的本地。
+
+如果自己已经在本地搭建好博客那么这一步可以直接跳过不需要执行。
+因为我们最终的目的是把本地的博客部署在自己的云服务器中，以提高自己博客的访问速度。直接修改站点配置文件，通过Git推送到自己的云服务器即可。那么废话结束，最后的一步，本地推送。
+
+本地博客远程推送
+
+修改配置文件
+
+修改配置文件 _config.yml，将 url 改成 https://&#123;云服务器IP&#125;/
+
+将 deploy 目标改为 &#123;服务器用户名&#125;@&#123;服务IP&#125;:/var/repo/myblog.git
+
+delploy站点配置这里可以添加多个远端仓库，具体添加的格式可以参考一下：
+
+```-type:git  
+-repo:  
+    &#123;远端推送仓库地址&#125;  
+-branch:&#123;远端仓库分支&#125;```
+
+本地博客推送
+
+此时只需要在自己的博客主目录打开gitbase输入npx hexo clean &amp;&amp;npx hexo g &amp;&amp; hexo d 完成推送即可
+
+</code></pre>
+
+    </article>
+    <!-- license -->
     
-        
-        
-        
-        
-            
-        
-        <article class="index-post">
-            <a class="abstract-title" href="/2022/12/24/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E4%BA%8E%E7%A7%81%E6%9C%89%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF/">
-                
-                <span class="abstract-title-text">[Untitled Post]</span>
-            </a>
-            <div class="abstract-content">
-                
-title: 博客部署于私有云服务器端date: 2022-12-24 21:33:13tags:
-hexo博客部署于私有云服务器端服务远程登录安装必要组件服务器安装 Git 和 Nginx
-Nginx部署便就可以通过公网ip来在异地浏览器中访问云服务器中部署的网站
-Git通过此组件把本地部署的博客推送到远端云服务器中
-首先，通过终端登录云服务器分别执行一下两个命令，完成Git与Nginx的安装
-yum update
-yum install git nginx -y
-服务器创建Git仓库
-服务器与本地的原理一样也需要创建一个Git仓库，用于部署网站，以下有四步分别为：
-该路径是Git仓...
-            </div>
-            <!-- read more -->
-            
-            <div class="abstract-post-meta">
-                <!-- date -->
-                <div class="abstract-date" title="Last updated: 2022/12/24">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2022/12/24</span>
-                </div>
-                <!-- tags -->
-                
-            </div>
-        </article>
-        <div class="index-post-divider"></div>
+        <div class="license-wrapper">
+            <p>Author：<a href="http://43.143.165.129">John Son</a>
+            <p>Link：<a href="http://43.143.165.129/2022/12/24/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E4%BA%8E%E7%A7%81%E6%9C%89%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF/">http://43.143.165.129/2022/12/24/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E4%BA%8E%E7%A7%81%E6%9C%89%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF/</a>
+            <p>Publish date：<a href="http://43.143.165.129/2022/12/24/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E4%BA%8E%E7%A7%81%E6%9C%89%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF/">December 24th 2022, 9:32:56 pm</a>
+            <p>Update date：<a href="http://43.143.165.129/2022/12/24/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E4%BA%8E%E7%A7%81%E6%9C%89%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF/">December 24th 2022, 9:33:42 pm</a>
+            <p>License：本文采用<a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
+        </div>
     
-        
-        
-        
-        
+    <!-- paginator -->
+    <ul class="post-paginator">
+        <li class="next">
             
-        
-        <article class="index-post">
-            <a class="abstract-title" href="/2022/12/24/my-first-blog/">
-                
-                <span class="abstract-title-text">my-first-blog</span>
-            </a>
-            <div class="abstract-content">
-                编写文章（基于Markdown）1.Markdown简介但是在我们正式写下我们文章的第一个文字时，我们需要了解一下什么是 Markdown：
-Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式
-基于Markdown的简洁性，它已经成为了目前世界上最流行的用于书写博客的语言。
-2.Markdown语法在了解Markdown 语法之前，博主十分强烈推荐csdn编辑器markdown,十分方便好用，还可以实时预览。
-（1）标题Markdown 语法：
-1.# 一级标题
-2.## 二级标题
-3.### 三级标题
-4.#### 四级标...
-            </div>
-            <!-- read more -->
+        </li>
+        <li class="previous">
             
-            <div class="abstract-post-meta">
-                <!-- date -->
-                <div class="abstract-date" title="Last updated: 2022/12/24">
-                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2022/12/24</span>
-                </div>
-                <!-- tags -->
-                
-            </div>
-        </article>
-        <div class="index-post-divider"></div>
+                <div class="prevSlogan">Previous Post</div>
+                <a href="/2022/12/24/my-first-blog/" title="my-first-blog">
+                    <div class="prevTitle">my-first-blog</div>
+                </a>
+            
+        </li>
+    </ul>
+    <!-- comment -->
     
-    <!-- paginator  -->
+        <div class="post-comment">
+            <!-- 来必力 City 版安装代码 -->
+
+
+            
+
+            
+
+            
+
+            <!-- utteranc评论 -->
+
+
+            <!-- partial('_partial/comment/changyan') -->
+            <!--PC版-->
+
+
+            
+            
+
+            
+
+        </div>
+    
+    <!-- timeliness note -->
+    <!-- idea from: https://hexo.fluid-dev.com/posts/hexo-injector/#%E6%96%87%E7%AB%A0%E6%97%B6%E6%95%88%E6%80%A7%E6%8F%90%E7%A4%BA -->
+    
+    <!-- Mathjax -->
     
 </main>
 
@@ -588,6 +714,23 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
 
         </div>
         <!-- toc -->
+        
+            <div class="toc-wrapper toc-wrapper-loding" style=
+
+
+
+
+
+
+
+    top:50vh;
+
+>
+                <div class="toc-catalog">
+                    <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+                </div>
+                <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E4%BA%8E%E7%A7%81%E6%9C%89%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF"><span class="toc-number">1.</span> <span class="toc-text">hexo博客部署于私有云服务器端</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%8D%E5%8A%A1%E8%BF%9C%E7%A8%8B%E7%99%BB%E5%BD%95%E5%AE%89%E8%A3%85%E5%BF%85%E8%A6%81%E7%BB%84%E4%BB%B6"><span class="toc-number">1.1.</span> <span class="toc-text">服务远程登录安装必要组件</span></a></li></ol></li></ol>
+            </div>
         
         <!-- sidebar -->
         <div class="sidebar sidebar-hide">
@@ -702,6 +845,8 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
         <!-- CNZZ -->
         
         <!-- async load share.js -->
+        
+            <script src="/scripts/share.js?v=20221224" async></script>
         
         <!-- mermaid -->
         
