@@ -6,7 +6,7 @@
   <link href="http://43.143.165.129/atom.xml" rel="self"/>
   
   <link href="http://43.143.165.129/"/>
-  <updated>2023-01-12T03:07:41.594Z</updated>
+  <updated>2023-02-01T00:19:43.728Z</updated>
   <id>http://43.143.165.129/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JAVA学习笔记</title>
+    <link href="http://43.143.165.129/2023/01/12/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://43.143.165.129/2023/01/12/JAVA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2023-01-12T08:22:36.000Z</published>
+    <updated>2023-02-01T00:19:43.728Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="JAVA学习笔记"><a href="#JAVA学习笔记" class="headerlink" title="JAVA学习笔记"></a>JAVA学习笔记</h1><h2 id="标识符有命名规则："><a href="#标识符有命名规则：" class="headerlink" title="标识符有命名规则："></a>标识符有命名规则：</h2><h5 id="1-只能使用26个英文字母大小写，数字0-9，下划线，美元符号"><a href="#1-只能使用26个英文字母大小写，数字0-9，下划线，美元符号" class="headerlink" title="1.只能使用26个英文字母大小写，数字0-9，下划线，美元符号$"></a>1.只能使用26个英文字母大小写，数字0-9，下划线，美元符号$</h5><h5 id="2-数字不能开头"><a href="#2-数字不能开头" class="headerlink" title="2.数字不能开头"></a>2.数字不能开头</h5><h5 id="3-不能直接使用关键字、保留字、特殊值"><a href="#3-不能直接使用关键字、保留字、特殊值" class="headerlink" title="3.不能直接使用关键字、保留字、特殊值"></a>3.不能直接使用关键字、保留字、特殊值</h5><h5 id="4-严格区分大小写"><a href="#4-严格区分大小写" class="headerlink" title="4.严格区分大小写"></a>4.严格区分大小写</h5><h5 id="5-不能包含空格"><a href="#5-不能包含空格" class="headerlink" title="5.不能包含空格"></a>5.不能包含空格</h5><h2 id="标识符有命名规范："><a href="#标识符有命名规范：" class="headerlink" title="标识符有命名规范："></a>标识符有命名规范：</h2><h5 id="1-见名如意"><a href="#1-见名如意" class="headerlink" title="1. 见名如意"></a>1. 见名如意</h5><h5 id="2-类名：每一个单词的首字母大写"><a href="#2-类名：每一个单词的首字母大写" class="headerlink" title="2. 类名：每一个单词的首字母大写"></a>2. 类名：每一个单词的首字母大写</h5><h5 id="3-变量名、方法名：从第二个单词开始首字母大写"><a href="#3-变量名、方法名：从第二个单词开始首字母大写" class="headerlink" title="3. 变量名、方法名：从第二个单词开始首字母大写"></a>3. 变量名、方法名：从第二个单词开始首字母大写</h5><h5 id="4-包名：所有单词都小写，单词之间使用-分割"><a href="#4-包名：所有单词都小写，单词之间使用-分割" class="headerlink" title="4. 包名：所有单词都小写，单词之间使用 . 分割"></a>4. 包名：所有单词都小写，单词之间使用 . 分割</h5><h5 id="5-常量名：所有单词都大写，单词之间使用下划线-分割"><a href="#5-常量名：所有单词都大写，单词之间使用下划线-分割" class="headerlink" title="5. 常量名：所有单词都大写，单词之间使用下划线  __ 分割"></a>5. 常量名：所有单词都大写，单词之间使用下划线  __ 分割</h5>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;JAVA学习笔记&quot;&gt;&lt;a href=&quot;#JAVA学习笔记&quot; class=&quot;headerlink&quot; title=&quot;JAVA学习笔记&quot;&gt;&lt;/a&gt;JAVA学习笔记&lt;/h1&gt;&lt;h2 id=&quot;标识符有命名规则：&quot;&gt;&lt;a href=&quot;#标识符有命名规则：&quot; class=&quot;he</summary>
+      
+    
+    
+    
+    
+    <category term="Technology" scheme="http://43.143.165.129/tags/Technology/"/>
+    
+  </entry>
   
   <entry>
     <title>IDEA的使用备忘</title>
